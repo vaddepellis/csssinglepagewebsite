@@ -1,0 +1,26 @@
+{
+  "name": "csslandingpage",
+  "version": "1.0.0",
+  "description": "CSS Landing Page",
+  "main": "index.js",
+  "scripts": {
+    
+    "compile:sass":"node-sass scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaddepellis/csssinglepagewebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaddepellis/csssinglepagewebsite/issues"
+  },
+  "homepage": "https://github.com/vaddepellis/csssinglepagewebsite#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
